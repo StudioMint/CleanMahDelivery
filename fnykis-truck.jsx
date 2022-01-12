@@ -1,6 +1,6 @@
 /*
 <javascriptresource>
-<name>$$$/JavaScripts/cleanMyDelivery/Menu=Clean My Delivery...</name>
+<name>$$$/JavaScripts/cleanMyDelivery/Menu=Truck...</name>
 </javascriptresource>
 */
 
@@ -33,7 +33,7 @@ try {
 
 function createDialog() {
 
-    var w = new Window('dialog',"Clean My Delivery",undefined);
+    var w = new Window('dialog',"Truck",undefined);
         w.alignChildren = "left";
         w.orientation = "column";
 
@@ -412,7 +412,7 @@ function init() {
         } else {
             open(File(thisItem));
         }
-        activeDocument.suspendHistory("Clean My Delivery", "main()");
+        activeDocument.suspendHistory("Truck", "main()");
     }
     ///////////////////////////
 
