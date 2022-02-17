@@ -1,6 +1,7 @@
 /*
 <javascriptresource>
-<name>$$$/JavaScripts/cleanMyDelivery/Menu=Truck...</name>
+<name>$$$/JavaScripts/cleanMahDelivery/Menu=Clean Mah Delivery...</name>
+<category>Studio Mint</category>
 </javascriptresource>
 */
 
@@ -33,7 +34,7 @@ try {
 
 function createDialog() {
 
-    var w = new Window('dialog',"Truck",undefined);
+    var w = new Window('dialog',"Clean Mah Delivery",undefined);
         w.alignChildren = "left";
         w.orientation = "column";
 
@@ -412,7 +413,7 @@ function init() {
         } else {
             open(File(thisItem));
         }
-        activeDocument.suspendHistory("Truck", "main()");
+        activeDocument.suspendHistory("Clean Mah Delivery", "main()");
     }
     ///////////////////////////
 
