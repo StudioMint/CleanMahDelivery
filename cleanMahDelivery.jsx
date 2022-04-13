@@ -597,7 +597,7 @@ function cleanFolderStr(input) { // Input a path in any form and return a string
 }
 
 function selectFiles() {
-    var refFiles = File(scriptFolder).openDlg("Select a file", ["*.psd", "*.psb", "*.tif", "*.tiff", "*.jpg", "*.jpeg"], true);
+    var refFiles = File(scriptFolder).openDlg("Select a file", ["*.psd", "*.psb", "*.tif", "*.tiff", "*.jpg", "*.jpeg", "*"], true);
     if (refFiles != null) return refFiles;
 }
 
